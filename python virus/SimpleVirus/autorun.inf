@@ -1,3 +1,0 @@
-[autorun]
-open=python payload.py
-action=Run Python Script
