@@ -28,7 +28,6 @@ class WebVulnerabilityScanner:
         }
 
     def validate_url(self):
-        """Validasi URL target"""
         try:
             response = requests.head(self.target_url, timeout=5)
             return response.status_code == 200
@@ -36,7 +35,6 @@ class WebVulnerabilityScanner:
             return False
 
     def crawl(self, url=None):
-        """Crawling website untuk menemukan URL internal"""
         if url is None:
             url = self.target_url
 
@@ -61,7 +59,6 @@ class WebVulnerabilityScanner:
             print(f"Error crawling {url}: {e}")
 
     def test_sql_injection(self, url, params):
-        """Menguji SQL Injection"""
         vulnerabilities = []
         
         for key, value in params.items():
@@ -86,7 +83,6 @@ class WebVulnerabilityScanner:
         return vulnerabilities
 
     def test_xss(self, url, params):
-        """Menguji Cross-Site Scripting (XSS)"""
         vulnerabilities = []
         
         for key, value in params.items():
@@ -111,7 +107,6 @@ class WebVulnerabilityScanner:
         return vulnerabilities
 
     def scan(self):
-        """Melakukan scanning keseluruhan"""
         if not self.validate_url():
             print("URL tidak valid atau tidak dapat diakses")
             return
@@ -133,7 +128,6 @@ class WebVulnerabilityScanner:
             self.vulnerable_urls.extend(xss_vuln)
 
     def save_report(self, format='json'):
-        """Menyimpan laporan hasil scanning"""
         filename = f'vulnerability_report.{format}'
 
         if format == 'json':
