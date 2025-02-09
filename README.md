@@ -564,16 +564,70 @@ Educational malware analysis in a safe environment:
 > ⚠️ **Safety First**: Always use in an isolated environment!
 
 ### 🔍 [URL Scanner](https://github.com/rexzea/Simple-URl-Checker)
-Your first line of defense against malicious websites:
-- Malware detection
-- SSL verification
-- Vulnerability scanning
-- Content analysis
-- Detailed reports
+#### Project Description
+Simple URL Checker is a tool for analyzing and assessing URL security. Designed to protect users from potential online threats, this project provides analytical reports about the security and risks associated with web links.
+
+#### Main Features
+-  Security Detection
+  - Checking against malicious URL databases
+  - Analysis of suspicious URL structures and patterns
+  - Identification of potential phishing and malware sites
+-  Multi Protocol Support
+  - Compatible with HTTP and HTTPS
+  - SSL certificate verification
+  - Network security configuration validation
+-  Great Performance
+  - Fast scanning in milliseconds
+  - Optimized algorithms for processing efficiency
+  - Low computational resource consumption
+
+#### Installation
+##### Prerequisites
+- Python 3.7+
+- pip
+- Internet connection
+
+##### Installation
+```bash
+# Install dependencies
+pip install requests beautifulsoup4
+```
+
+####  Basic Usage
+```python
+import requests
+import json
+import csv
+from urllib.parse import urljoin, urlparse
+from bs4 import BeautifulSoup
+# Check URL security
+target_url = input("Enter website URL for testing (example: http://example.com): ")
+# Preview
+--- Phishing Detection Results ---
+URL: https://vsbattles.fandom.com/wiki/VS_Battles_Wiki
+Risk Score: 0
+Risk Status: Safe
+```
+
+####  Detection Methods
+URL Checker uses multiple layers to assess security:
+1. **Global Blacklist**
+   - Cross-reference with international malicious URL databases
+   - Regular threat list updates
+2. **URL Structural Analysis**
+   - Detection of suspicious URL patterns
+   - Identification of unusual subdomain usage
+   - Checking for suspicious characters and encoding
+3. **Certificate Verification**
+   - SSL certificate validity checks
+   - Detection of expired or untrusted certificates
+4. **Content Scanning**
+   - Metadata analysis
+   - Checking for potential malicious redirects
 
 > 🛡️ **Security Tip**: Scan unknown URLs before clicking!
 
-## 🚀 Quick Start
+## Quick Start
 
 Get up and running in minutes:
 
