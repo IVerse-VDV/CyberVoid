@@ -251,12 +251,38 @@ Master of disguise for your network identity! Change your MAC address with confi
 > ⚡ **Quick Tip**: Always backup your original MAC address before making changes!
 
 ### 📱 [OSINT Phone Number](https://github.com/rexzea/PhoneDetective)
-Turn any phone number into a goldmine of intelligence:
-- Global number validation
-- Social media footprint
-- Carrier identification
-- Risk assessment
-- Historical data analysis
+🔍 About PhoneDetective
+PhoneDetective is an OSINT (Open Source Intelligence) tool designed to uncover hidden information behind phone numbers effortlessly. With an intuitive interface, PhoneDetective helps you gather intelligence from various open sources.
+
+#### Key Features
+
+##### 🔹 Validation
+
+- Automatic phone number format detection
+- Real time validation to ensure accuracy
+- National format (Indonesia)
+
+
+##### 🔹 Analysis
+
+- Identify mobile providers
+- Detect geographical location
+- Phone number registration history
+
+  
+##### 🔹 Reports
+
+- Export results in JSON format
+- Interactive data visualization
+- Structured analysis summary
+
+  
+##### Getting Started
+
+- Prerequisites
+- Python 3.6+
+- pip (Python package installer)
+- Internet connection
 
 > 🔍 **Investigation Tip**: Cross reference findings with social media for better results!
 
