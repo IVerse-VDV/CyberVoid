@@ -24,23 +24,7 @@ In a world where cyber threats evolve daily, staying ahead requires the right ar
 
 ## 🎯 Featured Tools
 
-### 🔐 [AES Text Encryptor](https://github.com/rexzea/AES-Text-Encryptor) 
-Transform your sensitive text into unbreakable code with military grade encryption. Our AES-256 implementation doesnt just encrypt - it fortifies your data with:
-- Real-time encryption/decryption
-- Multiple cipher modes (CBC, ECB, CTR)
-- Intuitive key management
-- File encryption support
-- Cross platform compatibility
 
-> 💡 **Tip**: Use CBC mode for enhanced security in most scenarios!
-
-### 🎲 [Secure Password Generator](https://github.com/rexzea/SecurePass-Generator)
-Stop using "password123"! Create fortress strong passwords that even supercomputers cant crack. Features include:
-- Quantum resistant random generation
-- Customizable complexity rules
-- Built-in password manager
-- Password strength analytics
-- Secure storage with AES-256
 
 > 🔥 **Fun Fact**: A 12-character random password would take centuries to crack using current technology!
 
@@ -101,6 +85,24 @@ Dont just guess - know how strong your passwords really are:
 - Breach database checking
 - Policy compliance
 - Real-time feedback
+
+### 🔐 [AES Text Encryptor](https://github.com/rexzea/AES-Text-Encryptor) 
+Transform your sensitive text into unbreakable code with military grade encryption. Our AES-256 implementation doesnt just encrypt - it fortifies your data with:
+- Real-time encryption/decryption
+- Multiple cipher modes (CBC, ECB, CTR)
+- Intuitive key management
+- File encryption support
+- Cross platform compatibility
+
+> 💡 **Tip**: Use CBC mode for enhanced security in most scenarios!
+
+### 🎲 [Secure Password Generator](https://github.com/rexzea/SecurePass-Generator)
+Stop using "password123"! Create fortress strong passwords that even supercomputers cant crack. Features include:
+- Quantum resistant random generation
+- Customizable complexity rules
+- Built-in password manager
+- Password strength analytics
+- Secure storage with AES-256
 
 > 💪 **Strength Tip**: Mix characters, numbers, and symbols for maximum security!
 
