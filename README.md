@@ -12,7 +12,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/cyber-tools/pulls)
 
-[Explore Documentation](#) | [Installation Guide](#) | [Contributing](#) | [Report Bug](#)
+[Explore Documentation](#) | [Installation Guide](#) | [Contributing](#) | [Report Bug](https://github.com/IVerse-VDV/CyberVoid/issues)
 
 </div>
 
@@ -188,6 +188,6 @@ Released under the MIT License - see the [LICENSE](LICENSE) file for details.
 ### Ready to level up your security game? 
 ⭐ Star us on GitHub and join our community!
 
-[Get Started](#) | [View Demo](#) | [Report Bug](#) | [Request Feature](#)
+[Get Started](#) | [View Demo](#) | [Report Bug](https://github.com/IVerse-VDV/CyberVoid/issues) | [Request Feature](#)
 
 </div>
