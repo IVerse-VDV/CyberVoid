@@ -156,6 +156,8 @@ The tool provides information including:
   
 > 🎯 **Use Case**: Perfect for threat intelligence and network security assessments!
 
+
+
 ### 📊 [Local Device Monitor](https://github.com/rexzea/Simple-Monitoring)
 ## Project Summary
 This Network Monitoring System is a Python-based tool designed to provide monitoring of network infrastructure, device health, and WiFi connectivity. By utilizing these monitoring techniques, it offers real-time analysis and reporting of network-related metrics.
@@ -250,8 +252,10 @@ Master of disguise for your network identity! Change your MAC address with confi
 
 > ⚡ **Quick Tip**: Always backup your original MAC address before making changes!
 
+
+
 ### 📱 [OSINT Phone Number](https://github.com/rexzea/PhoneDetective)
-🔍 About PhoneDetective
+#### About PhoneDetective
 PhoneDetective is an OSINT (Open Source Intelligence) tool designed to uncover hidden information behind phone numbers effortlessly. With an intuitive interface, PhoneDetective helps you gather intelligence from various open sources.
 
 #### Key Features
@@ -283,6 +287,39 @@ PhoneDetective is an OSINT (Open Source Intelligence) tool designed to uncover h
 - Python 3.6+
 - pip (Python package installer)
 - Internet connection
+
+#### Preview
+```python
+              
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Field                ┃ Value            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+│ Format Internasional │ +62 898-8610-455 │
+│ Format Nasional      │ 0898-8610-455    │
+│ Format E164          │ +628988610455    │
+│ Kode Negara          │ +62              │       # My contact
+│ Nomor Nasional       │ 8988610455       │
+│ Tipe                 │ 1                │
+│ Valid                │ True             │
+│ Kemungkinan          │ True             │
+└──────────────────────┴──────────────────┘
+```
+
+##### Output (JSON)
+
+```json
+{
+  "number": "+62812XXXXX",
+  "valid": true,
+  "provider": "Telkomsel",
+  "location": {
+    "province": "DKI Jakarta",
+    "region": "Indonesia"
+  },
+  "risk_score": 0.2,
+  "last_seen": "2024-12-15"
+}
+```
 
 > 🔍 **Investigation Tip**: Cross reference findings with social media for better results!
 
