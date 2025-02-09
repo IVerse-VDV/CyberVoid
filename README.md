@@ -165,9 +165,9 @@ We welcome your pull requests!
 
 <div align="center">
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
-[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?style=social&logo=discord)](https://discord.gg/your-invite-link)
-[![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/yourusername?style=social)](https://reddit.com/u/yourusername)
+[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/UniVoid)
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?style=social&logo=discord)](https://discord.gg/UniVoid)
+[![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/yourusername?style=social)](https://reddit.com/u/UniVoid)
 
 </div>
 
