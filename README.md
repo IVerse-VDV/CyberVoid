@@ -141,7 +141,7 @@ cd cyber-tools
 pip install -r requirements.txt
 
 # Launch your first tool
-python tools/aes_encryptor/main.py
+python cyber-tools/ip-check/main/react-ip-checker.py
 ```
 
 ## 🎨 Features That Make Us Special
@@ -153,7 +153,7 @@ python tools/aes_encryptor/main.py
 - 🔧 **Extensible**: Easy to modify and enhance
 - 📚 **Well Documented**: Clear, comprehensive documentation
 
-## 🤝 Join Our Community
+## 🤝 Join Community
 
 Your contributions make CyberTools better! Whether you're:
 - 🐛 Hunting bugs
