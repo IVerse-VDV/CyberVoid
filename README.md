@@ -324,12 +324,78 @@ PhoneDetective is an OSINT (Open Source Intelligence) tool designed to uncover h
 > 🔍 **Investigation Tip**: Cross reference findings with social media for better results!
 
 ### 🕸️ [OSINT Web](https://github.com/rexzea/Magic-Eye-Osint-Tools)
-Your digital microscope for web reconnaissance:
-- Deep domain analysis
-- Technology stack detection
-- Security assessment
-- Historical records
-- Comprehensive reporting
+#### Overview
+
+Magic Eye is a powerful OSINT (Open Source Intelligence) tool designed for comprehensive website analysis and intelligence gathering. With four specialized modes of operation, it provides flexible and detailed insights into web infrastructure, content, and security aspects.
+
+#### Features
+
+-  Four specialized analysis modes
+-  Multiple output formats (JSON/CSV)
+-  Real time data processing
+-  Deep website crawling capabilities
+-  Security focused analysis options
+
+
+#### Modes
+##### 1. Regular Mode
+> The versatile reconnaissance mode for quick analysis.
+
+##### 2. Specific Mode
+> Specialized analysis for ".com" domains with structured output.
+
+##### 3. Hunter Mode
+> Advanced link discovery and relationship mapping.
+
+##### 4. Hazard Mode
+> Technical security analysis and infrastructure mapping.
+
+
+
+#### To know more details about all modes, [Click here](https://github.com/rexzea/Magic-Eye-Osint-Tools)
+
+#### Usage
+
+```bash
+ ███▄ ▄███▓ ▄▄▄        ▄████  ██▓ ▄████▄     ▓█████▓██   ██▓▓█████ 
+▓██▒▀█▀ ██▒▒████▄     ██▒ ▀█▒▓██▒▒██▀ ▀█     ▓█   ▀ ▒██  ██▒▓█   ▀ 
+▓██    ▓██░▒██  ▀█▄  ▒██░▄▄▄░▒██▒▒▓█    ▄    ▒███    ▒██ ██░▒███   
+▒██    ▒██ ░██▄▄▄▄██ ░▓█  ██▓░██░▒▓▓▄ ▄██▒   ▒▓█  ▄  ░ ▐██▓░▒▓█  ▄ 
+▒██▒   ░██▒ ▓█   ▓██▒░▒▓███▀▒░██░▒ ▓███▀ ░   ░▒████▒ ░ ██▒▓░░▒████▒
+░ ▒░   ░  ░ ▒▒   ▓▒█░ ░▒   ▒ ░▓  ░ ░▒ ▒  ░   ░░ ▒░ ░  ██▒▒▒ ░░ ▒░ ░
+░  ░      ░  ▒   ▒▒ ░  ░   ░  ▒ ░  ░  ▒       ░ ░  ░▓██ ░▒░  ░ ░  ░
+░      ░     ░   ▒   ░ ░   ░  ▒ ░░              ░   ▒ ▒ ░░     ░   
+       ░         ░  ░      ░  ░  ░ ░            ░  ░░ ░        ░  ░
+                                 ░                  ░ ░
+
+cr : rexzea
+==================================================
+Enter the target domain (example: example.com): example.com
+```
+
+## 📝 Examples
+
+### Regular Mode Output
+```json
+        "ip": "20.205.243.166",
+        "ip_details": {
+            "status": "success",
+            "country": "Singapore",
+            "countryCode": "SG",
+            "region": "01",
+            "regionName": "Central Singapore",
+            "city": "Singapore",
+            "zip": "168812",
+            "lat": 1.283,
+            "lon": 103.833,
+            "timezone": "Asia/Singapore",
+            "isp": "Microsoft Corporation",
+            "org": "Microsoft Azure Cloud (southeastasia)",
+            "as": "AS8075 Microsoft Corporation",
+            "query": "20.205.243.166"
+```
+
+
 
 > 🎯 **Best Practice**: Always verify findings through multiple sources!
 
