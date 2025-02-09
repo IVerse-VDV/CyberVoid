@@ -1,4 +1,4 @@
-# 🛡️ CyberTools Collection
+# 🛡️ CyberTools
 
 <div align="center">
 
