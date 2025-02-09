@@ -29,12 +29,54 @@ In a world where cyber threats evolve daily, staying ahead requires the right ar
 > 🔥 **Fun Fact**: A 12-character random password would take centuries to crack using current technology!
 
 ### 🌐 [IP-Check](https://github.com/rexzea/Net-Phantom)
-Unmask the secrets behind any IP address! This isnt just another IP lookup tool - its your complete IP intelligence center:
-- Detailed geolocation
-- Real time threat assessment
-- Network fingerprinting
-- VPN/Proxy detection
-- Historical reputation data
+A Python based IP address analysis tool that provides detailed information about IP addresses and domains. This tool fetches and analyzes various aspects of an IP address or domain, including geolocation, network information, DNS records, SSL certificates, WHOIS data, and port scanning.
+
+## 🌟 Features
+
+### Core Functionality
+- IPv4 and IPv6 support
+- Domain name resolution
+- Response time measurement
+- Detailed geolocation data
+- Network information analysis
+
+### Advanced Information Gathering
+- **DNS Analysis**
+  - Multiple record types (A, AAAA, MX, NS, TXT, SOA, CNAME)
+  - Nameserver information
+  - Reverse DNS lookup
+
+- **Security Information**
+  - SSL/TLS certificate details
+  - Port scanning with service detection
+  - Banner grabbing for open ports
+  - Proxy/VPN detection
+
+- **Domain Information**
+  - WHOIS data retrieval
+  - Registration details
+  - Domain status
+  - Registrar information
+
+### Data Management
+- Organized data storage in `dataV/` directory
+- Raw data storage in JSON format
+- Interactive visualizations
+- Historical data viewing
+- Structured report generation
+
+## 📋 Requirements
+
+- Python 3.7+
+- Required packages:
+  ```
+  requests
+  dnspython
+  python-whois
+  pyOpenSSL
+  plotly
+  pandas
+  ```
 
 > 🎯 **Use Case**: Perfect for threat intelligence and network security assessments!
 
