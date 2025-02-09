@@ -24,7 +24,7 @@ In a world where cyber threats evolve daily, staying ahead requires the right ar
 
 ## 🎯 Featured Tools
 
-### 🔐 [AES Text Encryptor](#) 
+### 🔐 [AES Text Encryptor](https://github.com/rexzea/AES-Text-Encryptor) 
 Transform your sensitive text into unbreakable code with military grade encryption. Our AES-256 implementation doesnt just encrypt - it fortifies your data with:
 - Real-time encryption/decryption
 - Multiple cipher modes (CBC, ECB, CTR)
