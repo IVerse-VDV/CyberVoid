@@ -16,22 +16,22 @@
 
 </div>
 
-## 🌟 Why Choose CyberTools?
+##  Why Choose CyberTools?
 
 > *"The first step in securing your system is having the right tools at your disposal."*
 
 In a world where cyber threats evolve daily, staying ahead requires the right arsenal. CyberTools Collection brings you a carefully curated suite of security tools that combine power with simplicity. Whether you're a seasoned security professional or just starting your cybersecurity journey, our tools are designed to meet your needs.
 
-## 🎯 Featured Tools
+##  Featured Tools
 
 
 
-> 🔥 **Fun Fact**: A 12-character random password would take centuries to crack using current technology!
+>  **Fun Fact**: A 12-character random password would take centuries to crack using current technology!
 
 ### 🌐 [IP-Check](https://github.com/rexzea/Net-Phantom)
 A Python based IP address analysis tool that provides detailed information about IP addresses and domains. This tool fetches and analyzes various aspects of an IP address or domain, including geolocation, network information, DNS records, SSL certificates, WHOIS data, and port scanning.
 
-## 🌟 Features
+## Features
 
 #### Core Functionality
 - IPv4 and IPv6 support
@@ -65,7 +65,7 @@ A Python based IP address analysis tool that provides detailed information about
 - Historical data viewing
 - Structured report generation
 
-#### 📋 Requirements
+#### Requirements
 
 - Python 3.7+
 - Required packages:
@@ -131,7 +131,7 @@ Nameservers: ns1.zdns.google, ns2.zdns.google, ns3.zdns.google, ns4.zdns.google
 ```
 
 
-#### 📁 Directory Structure
+#### Directory Structure
 
 ```
 dataV/
@@ -141,7 +141,7 @@ dataV/
 └── history/       # Search history
 ```
 
-#### 📊 Output Information
+#### Output Information
 
 The tool provides information including:
 - Basic IP information
@@ -157,12 +157,86 @@ The tool provides information including:
 > 🎯 **Use Case**: Perfect for threat intelligence and network security assessments!
 
 ### 📊 [Local Device Monitor](https://github.com/rexzea/Simple-Monitoring)
-Your systems personal health monitor! Keep track of every heartbeat of your machine:
-- Real time performance metrics
-- Smart resource tracking
-- Network activity monitoring
-- Customizable alerts
-- Beautiful performance graphs
+## Project Summary
+This Network Monitoring System is a Python-based tool designed to provide monitoring of network infrastructure, device health, and WiFi connectivity. By utilizing these monitoring techniques, it offers real-time analysis and reporting of network-related metrics.
+
+## Main Features
+
+### System Monitoring
+- System resource tracking (CPU, Memory, Disk)
+- Platform-specific system information retrieval
+- Performance logging and analysis
+
+### Network Intelligence
+- Network interface scanning
+- IP address and hostname resolution
+- Connection status and network topology mapping
+- WiFi network detection and analysis
+
+### Security & Logging
+- Robust logging mechanism
+- Security-based network scanning
+- Concurrent processing for efficient monitoring
+- SQLite database integration for persistent data storage
+
+## Technologies Used
+- **Language**: Python 3.8+
+- **Main Libraries**:
+  - `psutil`: System and process utilities
+  - `platform`: System information retrieval
+  - `socket`: Network communication
+  - `threading`: Concurrent operations
+  - `sqlite3`: Database management
+  - `requests`: HTTP networking
+
+   **MUST BE INSTALLED!**
+
+## Prerequisites
+- Python 3.8 or higher
+- Required Python libraries (see `External Tools`)
+- Administrative/root access recommended
+
+## 🔧 Installation Clone
+check the repository [in here](https://github.com/rexzea/Simple-Monitoring)
+```bash
+https://github.com/rexzea/Simple-Monitoring.git
+```
+
+## 📊 External Tools
+```python
+import psutil
+import platform
+import socket
+import time
+import logging
+import datetime
+import socket
+import json
+import threading
+import time
+import sqlite3
+import re
+import os
+import subprocess
+import concurrent.futures
+import uuid
+import requests
+import ipaddress
+```
+
+## 🔧 Preview
+```bash
+--- Network Monitoring ---
+Network: {'ssid': 'Not shown', 'platform': 'Windows'}
+Connected Devices: 0
+Download Speed: 18.81 Mbps
+Upload Speed: 9.4 Mbps
+Signal Strength: 84%
+Local IP: not shown
+Subnet: not shown
+Device List: not shown
+Monitoring stopped.
+```
 
 > 🚀 **Performance Tip**: Set up custom alerts to catch resource hogs before they impact your system!
 
