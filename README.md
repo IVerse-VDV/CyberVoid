@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Security Banner](https://via.placeholder.com/800x200)
+![Security Banner](assets/2092745.png)
 
 ### Your All-in-One Security Swiss Army Knife
 *Powerful tools for the modern security professional*
