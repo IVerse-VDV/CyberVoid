@@ -400,12 +400,27 @@ Enter the target domain (example: example.com): example.com
 > 🎯 **Best Practice**: Always verify findings through multiple sources!
 
 ### 🔒 [Password Checker](https://github.com/rexzea/Simple-password-strength-checker)
-Dont just guess - know how strong your passwords really are:
-- Advanced strength analysis
-- Pattern detection
-- Breach database checking
-- Policy compliance
-- Real-time feedback
+#### Features 
+Password Strength Checker is a Python application designed to analyze and evaluate password strength in depth. This project aims to provide an assessment of password security using various metrics and analytical algorithms in Python.
+
+##### Key Features
+  - Password Complexity Analysis
+  - Password Length Checking
+  - Password Entropy Calculation
+  - Weak Password Identification
+  - Password Strength Scoring
+  - Security Recommendations
+  - Objectives
+
+##### This project aims to:
+  - Help you create strong passwords
+  - Enhance digital security awareness
+  - Provide an easy guide for password creation
+
+    
+##### Prerequisites
+Python 3.7+
+No additional external libraries required
 
 ### 🔐 [AES Text Encryptor](https://github.com/rexzea/AES-Text-Encryptor) 
 Transform your sensitive text into unbreakable code with military grade encryption. Our AES-256 implementation doesnt just encrypt - it fortifies your data with:
