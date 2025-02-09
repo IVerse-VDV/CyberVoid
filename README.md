@@ -34,7 +34,7 @@ Transform your sensitive text into unbreakable code with military grade encrypti
 
 > 💡 **Tip**: Use CBC mode for enhanced security in most scenarios!
 
-### 🎲 [Secure Password Generator](#)
+### 🎲 [Secure Password Generator](https://github.com/rexzea/SecurePass-Generator)
 Stop using "password123"! Create fortress strong passwords that even supercomputers cant crack. Features include:
 - Quantum resistant random generation
 - Customizable complexity rules
@@ -44,7 +44,7 @@ Stop using "password123"! Create fortress strong passwords that even supercomput
 
 > 🔥 **Fun Fact**: A 12-character random password would take centuries to crack using current technology!
 
-### 🌐 [IP-Check](#)
+### 🌐 [IP-Check](https://github.com/rexzea/Net-Phantom)
 Unmask the secrets behind any IP address! This isnt just another IP lookup tool - its your complete IP intelligence center:
 - Detailed geolocation
 - Real time threat assessment
@@ -54,7 +54,7 @@ Unmask the secrets behind any IP address! This isnt just another IP lookup tool 
 
 > 🎯 **Use Case**: Perfect for threat intelligence and network security assessments!
 
-### 📊 [Local Device Monitor](#)
+### 📊 [Local Device Monitor](https://github.com/rexzea/Simple-Monitoring)
 Your systems personal health monitor! Keep track of every heartbeat of your machine:
 - Real time performance metrics
 - Smart resource tracking
@@ -74,7 +74,7 @@ Master of disguise for your network identity! Change your MAC address with confi
 
 > ⚡ **Quick Tip**: Always backup your original MAC address before making changes!
 
-### 📱 [OSINT Phone Number](#)
+### 📱 [OSINT Phone Number](https://github.com/rexzea/PhoneDetective)
 Turn any phone number into a goldmine of intelligence:
 - Global number validation
 - Social media footprint
@@ -84,7 +84,7 @@ Turn any phone number into a goldmine of intelligence:
 
 > 🔍 **Investigation Tip**: Cross reference findings with social media for better results!
 
-### 🕸️ [OSINT Web](#)
+### 🕸️ [OSINT Web](https://github.com/rexzea/Magic-Eye-Osint-Tools)
 Your digital microscope for web reconnaissance:
 - Deep domain analysis
 - Technology stack detection
@@ -94,7 +94,7 @@ Your digital microscope for web reconnaissance:
 
 > 🎯 **Best Practice**: Always verify findings through multiple sources!
 
-### 🔒 [Password Checker](#)
+### 🔒 [Password Checker](https://github.com/rexzea/Simple-password-strength-checker)
 Dont just guess - know how strong your passwords really are:
 - Advanced strength analysis
 - Pattern detection
@@ -114,7 +114,7 @@ Educational malware analysis in a safe environment:
 
 > ⚠️ **Safety First**: Always use in an isolated environment!
 
-### 🔍 [URL Scanner](#)
+### 🔍 [URL Scanner](https://github.com/rexzea/Simple-URl-Checker)
 Your first line of defense against malicious websites:
 - Malware detection
 - SSL verification
