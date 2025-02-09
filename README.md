@@ -160,26 +160,26 @@ The tool provides information including:
 ## Project Summary
 This Network Monitoring System is a Python-based tool designed to provide monitoring of network infrastructure, device health, and WiFi connectivity. By utilizing these monitoring techniques, it offers real-time analysis and reporting of network-related metrics.
 
-## Main Features
+#### Main Features
 
-### System Monitoring
+##### System Monitoring
 - System resource tracking (CPU, Memory, Disk)
 - Platform-specific system information retrieval
 - Performance logging and analysis
 
-### Network Intelligence
+##### Network Intelligence
 - Network interface scanning
 - IP address and hostname resolution
 - Connection status and network topology mapping
 - WiFi network detection and analysis
 
-### Security & Logging
+##### Security & Logging
 - Robust logging mechanism
 - Security-based network scanning
 - Concurrent processing for efficient monitoring
 - SQLite database integration for persistent data storage
 
-## Technologies Used
+#### Technologies Used
 - **Language**: Python 3.8+
 - **Main Libraries**:
   - `psutil`: System and process utilities
@@ -191,18 +191,18 @@ This Network Monitoring System is a Python-based tool designed to provide monito
 
    **MUST BE INSTALLED!**
 
-## Prerequisites
+#### Prerequisites
 - Python 3.8 or higher
 - Required Python libraries (see `External Tools`)
 - Administrative/root access recommended
 
-## 🔧 Installation Clone
+#### Installation Clone
 check the repository [in here](https://github.com/rexzea/Simple-Monitoring)
 ```bash
 https://github.com/rexzea/Simple-Monitoring.git
 ```
 
-## 📊 External Tools
+#### External Tools
 ```python
 import psutil
 import platform
@@ -224,7 +224,7 @@ import requests
 import ipaddress
 ```
 
-## 🔧 Preview
+#### Preview
 ```bash
 --- Network Monitoring ---
 Network: {'ssid': 'Not shown', 'platform': 'Windows'}
