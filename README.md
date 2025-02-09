@@ -33,7 +33,7 @@ A Python based IP address analysis tool that provides detailed information about
 
 ## 🌟 Features
 
-### Core Functionality
+#### Core Functionality
 - IPv4 and IPv6 support
 - Domain name resolution
 - Response time measurement
@@ -58,14 +58,14 @@ A Python based IP address analysis tool that provides detailed information about
   - Domain status
   - Registrar information
 
-### Data Management
+##### Data Management
 - Organized data storage in `dataV/` directory
 - Raw data storage in JSON format
 - Interactive visualizations
 - Historical data viewing
 - Structured report generation
 
-## 📋 Requirements
+#### 📋 Requirements
 
 - Python 3.7+
 - Required packages:
@@ -131,7 +131,7 @@ Nameservers: ns1.zdns.google, ns2.zdns.google, ns3.zdns.google, ns4.zdns.google
 ```
 
 
-## 📁 Directory Structure
+#### 📁 Directory Structure
 
 ```
 dataV/
@@ -141,7 +141,7 @@ dataV/
 └── history/       # Search history
 ```
 
-## 📊 Output Information
+#### 📊 Output Information
 
 The tool provides information including:
 - Basic IP information
