@@ -373,7 +373,7 @@ cr : rexzea
 Enter the target domain (example: example.com): example.com
 ```
 
-## 📝 Examples
+## Examples
 
 ### Regular Mode Output
 ```json
