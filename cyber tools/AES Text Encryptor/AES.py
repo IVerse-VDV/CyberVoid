@@ -19,6 +19,9 @@ class SecureMessageManager:
         self.backend = default_backend()
         self._setup_logging()
         self._create_database()
+
+
+
     
     def _setup_logging(self):
         """
@@ -36,6 +39,9 @@ class SecureMessageManager:
             ]
         )
         self.logger = logging.getLogger(__name__)
+
+
+
     
     def _create_database(self):
         """
@@ -57,6 +63,10 @@ class SecureMessageManager:
             self.logger.info("Database berhasil diinisialisasi")
         except Exception as e:
             self.logger.error(f"Gagal membuat database: {e}")
+
+
+
+
     
     def generate_key(self, password, salt=None):
         """
@@ -75,6 +85,10 @@ class SecureMessageManager:
         
         key = kdf.derive(password.encode()) 
         return key, salt
+
+
+
+
     
     def encrypt_message(self, message, password, metadata=None):
         """
@@ -127,6 +141,9 @@ class SecureMessageManager:
         except Exception as e:
             self.logger.error(f"Gagal mengenkripsi pesan: {e}")
             raise
+
+
+
     
     def decrypt_message(self, encrypted_message, password):
         """
@@ -161,6 +178,9 @@ class SecureMessageManager:
         except Exception as e:
             self.logger.error(f"Gagal mendekripsi pesan: {e}")
             raise
+
+
+
     
     def get_message_by_hash(self, message_hash):
         """
@@ -184,6 +204,9 @@ class SecureMessageManager:
         except Exception as e:
             self.logger.error(f"Gagal mengambil pesan: {e}")
             return None
+
+
+
     
     def list_messages(self):
         """
@@ -197,6 +220,16 @@ class SecureMessageManager:
         except Exception as e:
             self.logger.error(f"Gagal mengambil daftar pesan: {e}")
             return []
+
+
+
+
+
+
+
+
+
+
 
 def main():
     # contoh penggunaanya
