@@ -7,7 +7,7 @@
 .alpackages/
 #Snapshots folder
 .snapshots/
-#Testing Output folder
+#Testing Output folder 
 .output/
 #Extension App-file
 *.app
