@@ -2,8 +2,8 @@ name: Auto Commit Bot
 
 on:
   schedule:
-    - cron: "0 */5 * * *"  # Jalan setiap 5 jam
-  workflow_dispatch:  # Bisa dijalankan manual lewat GitHub Actions
+    - cron: "0 */5 * * *"  
+  workflow_dispatch:
 
 jobs:
   auto-commit:
