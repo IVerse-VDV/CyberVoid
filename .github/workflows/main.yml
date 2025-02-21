@@ -19,7 +19,7 @@ jobs:
       - name: Setup Git
         run: |
           git config --global user.name "CyberVoid-Bot"
-          git config --global user.email "your-github-email@noreply.github.com"
+          git config --global user.email "178272406+rexzea@users.noreply.github.com."
 
       - name: Sinkronisasi Remote
         run: |
