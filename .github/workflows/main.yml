@@ -31,4 +31,6 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/IVerse-VDV/CyberVoid.git main
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/IVerse-VDV/CyberVoid.git
+          git push origin main
+
